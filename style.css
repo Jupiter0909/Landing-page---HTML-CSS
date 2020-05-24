@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+
+:root {
+  --color: #c20e59;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.apple-logo {
+  height: 30px;
+  cursor: pointer;
+}
+
+header {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+}
+
+.header-text {
+  font-size: 10px;
+  cursor: pointer;
+}
+
+.apple-phone {
+  height: 200px;
+  animation: 1s flow;
+}
+
+.presentation {
+  display: flex;
+  flex: 1;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.text-para {
+  font-size: 0.7rem;
+}
+
+.property-1 {
+  border: 2px solid var(--color);
+  background-color: #ffffff;
+  color: var(--color);
+  cursor: pointer;
+}
+
+.property-1:hover {
+  border: white;
+  background-color: var(--color);
+  color: white;
+  transition: 0.5s all ease-in;
+}
+
+.property-2 {
+  border: white;
+  background-color: var(--color);
+  color: white;
+  cursor: pointer;
+}
+
+.property-2:hover {
+  border: 2px solid var(--color);
+  background-color: #ffffff;
+  color: var(--color);
+  transition: 0.5s all ease-in;
+}
+
+.class {
+  cursor: pointer;
+}
+
+@keyframes flow {
+  0% {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
